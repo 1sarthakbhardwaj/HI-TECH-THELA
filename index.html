@@ -27,7 +27,7 @@
         <a href="#speciality">speciality</a>
         <a href="#gallery">gallery</a>
         <a href="#order">order</a>
-        <a href="#">Offers</a>
+        <a href="#ex2" rel="modal:open">Offers</a>
 
     </nav>
 
@@ -42,7 +42,8 @@
     <div class="content">
         <h3>Swaad with Sanity</h3>
         <p>Aimed to provide high class and clean food in your city. <br>Started to make evolution in street food industry and to give you a perfect blend of <br>   <b>swaad with sanity</b></p>
-        <a href="#order" class="btn">order now</a>
+        <a href="#ex1" rel="modal:open" class = "btn">Order Now</a>  
+    
     </div>
 
     <div class="image">
@@ -67,7 +68,7 @@
             <div class="content">
                 <img src="images/md.png" alt="">
                 <h3>tasty Masala Dosa</h3>
-                <p>Restaurant style crispy masala dosa, Aromatic and delicious made from rice, lentils, potato, fenugreek, ghee and curry leaves, and served with chutneys and sambar. Typical ingredients include rice, husked black gram, puffed rice, chana dal, fenugreek seeds, salt, ghee, potatoes, onion, green chillies, curry leaves, and turmeric  </p>
+                <p>Restaurant style crispy masala dosa, Aromatic and delicious made from rice, lentils, potato, fenugreek and served with chutneys and sambar. Typical ingredients include rice, husked black gram, puffed rice, chana dal, fenugreek seeds, salt, ghee, potatoes, onion and green chillies  </p>
             </div>
         </div>  
         <div class="box">
@@ -83,23 +84,23 @@
             <div class="content">
                 <img src="images/chai-tea.png" alt="">
                 <h3>Hot Beverages</h3>
-                <p>hot tea</p>
+                <p>Hot beverages has a rich taste and an uplifting aroma. Initially we only serve our special tea & Masala Tea made up of crushed spices, cinnamon sticks, ginger, and milk to a boil, add tea bags. Tea has more polyphenols than most fruits and vegetables.<br> India Runs on Tea </p>
             </div>
         </div>
         <div class="box">
             <img class="image" src="images/cola.jpg" alt="">
             <div class="content">
                 <img src="images/coconuts.png" alt="">
-                <h3>cold drinks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                <h3>Sambar Vada</h3>
+                <p> basically a combination of traditional medu vada with lentil based soup also known as sambar. the sambar prepared for vada sambar can be easily used to any other south indian breakfast recipes like idli, dosa or even with upma or pongal and is an excellent source of protein</p>
             </div>
         </div>
         <div class="box">
             <img class="image" src="images/sibreak.jpg" alt="">
             <div class="content">
                 <img src="images/cereal.png" alt="">
-                <h3>healty breakfast</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+                <h3>tasty lunch</h3>
+                <p>Proper Indian combos with great aroma. We have masala rajma with rice & Kadi Rice in our current menu. They are a rich source of protein, carbohydrates and fibres. Furthermore, they are rich in minerals and vitamins such as copper, folate, potassium, iron and vitamin K1.</p>
             </div>
         </div>
 
@@ -244,7 +245,7 @@
     <div class="row">
         
         <div class="image">
-            <img src="images/order-img.jpg" alt="">
+            <img src="images/order.png" alt="">
         </div>
 
         <form action="">
@@ -260,16 +261,38 @@
             </div>
 
             <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
-
-            <input type="submit" value="order now" class="btn">
+            <a href="#ex1" rel="modal:open" class = "btn">Order Now</a>
 
         </form>
-
+  
     </div>
 
 </section>
 
 <!-- order section ends -->
+
+ <!-- Modal HTML embedded directly into document -->
+ <div id="ex1" class="modal">
+    <p>Site Construction in progress. For now use whats app to place your order <i class="fa fa-mobile" aria-hidden="true"></i></p>
+    
+  </div>
+  <!-- order modal ends -->
+
+<!-- offer modal -->
+<div id="ex2" class="modal">
+    <p><ul>
+        <li>15% off for people of age 60 and more</li>
+        <li>10% off on every girl</li>
+        <li>15% off on sharing pictures in social media</li>
+        <li>coming soon</li>
+        <li>Coming soon</li>
+    </ul></p>
+    
+  </div>
+<!-- offer modals ends -->
+
+  <!-- Modals ends -->
+
 
 <!-- footer section  -->
 
@@ -306,8 +329,13 @@
 
 
 
+<!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
-
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"
 
 
 
